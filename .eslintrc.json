@@ -1,0 +1,15 @@
+{
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true
+    }
+  },
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "babel"
+  ],
+  "parser": "babel-eslint"
+}
