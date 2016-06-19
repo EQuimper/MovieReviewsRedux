@@ -10,7 +10,7 @@ module.exports = {
   devtool: 'inline-sourcemap',
   entry: [
     // Set up an ES6-ish environment
-    //'babel-polyfill',
+    'babel-polyfill',
     // Application's scripts below
     '../client/index.js',
     //'webpack-dev-server/client?http://localhost:8080',
